@@ -24,7 +24,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |200.105.205.186:8899
 */
 //$config['base_url'] =  'http://www.rrnnii.upea.bo';
-$config['base_url'] =  'http://riupea.test';
+// $config['base_url'] =  'http://riupea.test';
+$config['base_url'] =  'http://ri-upea.test';
 //$config['base_url'] = 'https://'.$_SERVER['HTTP_HOST'].'';
 
 
