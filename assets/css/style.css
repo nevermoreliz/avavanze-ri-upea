@@ -1,0 +1,422 @@
+/*ESTILOS PARA CORREGIR ALGUNOS LUGARES DE LA PLANTILLA*/
+.scroll_modal{
+    max-height: 400px;
+    /*overflow-x: auto;*/
+}
+body{
+    position: relative;
+}
+input:invalid, select:invalid{
+    outline-color: #fff;
+}
+.menu-cabecera{
+    position: fixed;
+    top: 0;
+    z-index: 50;
+    background: #fff;
+    width: 100%;
+    border-bottom: 3px solid #eeeeee;
+    -webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.3);
+}
+.logo img{
+    padding: 5px 0px;
+}
+#login{
+    color: #ff7600;
+    font-size: 22px;
+    transition: all 0.5s;
+}
+#login:hover{
+    color: #27ae60;
+    font-size: 27px;
+    background: #fff;
+    transition: all 0.5s;
+}
+.menu a{
+    padding: 21px 5px;
+    color: #929292;
+    text-decoration: none;
+    font-size: 15px;
+    transition: 0.7s;
+}
+.menu a:hover{
+    background: #ff7600;
+    color: #fff;
+    transition: 0.7s;
+}
+#templatemo-nav-bar ul{
+    margin-top: 40px;
+}
+/*@media (max-width: 768px) {
+  #templatemo-nav-bar ul{
+    margin-top: 5px;
+  } 
+}*/
+
+/*estilos para la ventana modal de login de usuarios*/
+.estatico{
+    margin:0;
+}
+.modal_login_of{
+    display: none;
+    background: url('../images/background-modal.png');
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 51;
+}
+
+.fondo{
+    background: #fff;
+    top: 35px;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: rgba(0,0,0,0.4) 2px 2px 30px;
+}
+.login-cebecera{
+    background: #e43270;
+    top: -30px;
+    color: #fff;
+    box-shadow: rgba(0,0,0,0.4) 5px 5px 30px;
+    font-size: 60px;
+}
+.login-cebecera p{
+    font-size: 14px;
+    position: relative;
+}
+.login-form{
+    color: #aaa;
+}
+.login-form input{
+    border: none;
+    outline: none;
+    border-bottom: solid 1px #ddd;
+    width: 90%;
+    font-size: 16px;
+}
+.login-form input::placeholder{
+    transition: all 2s;
+    color: #aaa;
+    padding-left: 20px;
+}
+.login-form input:focus{
+    border-bottom: solid 2px #e43270;
+    transition: all 0.5s;
+}
+.login-form input:focus::placeholder{
+    opacity: 0;
+    transform: translateX(100%);
+    transition: all 0.7s;
+}
+.login-form div label{
+    font-size: 20px;
+    position: relative;
+}
+.login-form button{
+    background: none;
+    border: none;
+    color: #df2669;
+    outline: none;
+    transition: 0.5s;
+}
+.login-form button:hover{
+    letter-spacing: 2px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.login-form button, .login-form input{
+    margin-bottom: 30px;
+}
+/*estilos para la ventana modal de detalles de los convenios*/
+.modal_convenio_on{
+    background: url('../images/background-modal.png');
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 51;
+}
+.modal_convenio_of{
+    top: -500px;
+    transition: all 1s;
+    right: 0;
+    display: none;
+    z-index: 51;
+}
+.fondo{
+    top: 15px;
+    background: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px;
+}
+#ocultar_convenio_modal{
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    z-index: 51;
+    font-size: 33px;
+    color: #ff7600;
+    text-shadow: rgba(0,0,0,0.5) 4px 4px 7px;
+    cursor: pointer;
+}
+.preinscripcion-convenio{
+    position: relative;
+    top: -15px;
+    color: #ff7600;
+    cursor: pointer;
+    font-size: 14px;
+    border: 0;
+    background: none;
+}
+.preinscripcion-convenio-of{
+    position: relative;
+    top: -15px;
+    color: #aaa;
+    cursor: pointer;
+    font-size: 14px;
+    border: 0;
+    background: none;
+}
+.conv_nom_cell{
+    text-align: justify;
+    font-size: 14px;
+}
+.descargar_pdf{
+    padding: 2px;
+    border-radius: 3px;
+    text-align: center;
+}
+.descargar_pdf a{
+    font-size: 12px;
+    transition: all 0.3s;
+    color: #e43270;
+    text-decoration: none;
+    width: 100%;
+    display: block; 
+}
+.descargar_pdf a:hover{
+    color: #fff;    
+    transition: all 0.3s;
+}
+.descargar_pdf:hover{
+    background: #e43270;
+    cursor: pointer;
+}
+.blog_post{
+    position: relative;
+    border-radius: 5px;
+}
+.tipo_convenio_cost{
+    position: absolute;
+    background: #ffa500;
+    color: #fff;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    top: 23px;
+    left: -65px;
+    width: 200px;
+    -webkit-box-shadow: 0px 0px 25px 5px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 0px 25px 5px rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 25px 5px rgba(0,0,0,0.3);
+    text-align: center;
+}
+.preinscripcion-convenio .pre-bing{
+    font-size: 19px;
+}
+.preinscripcion-convenio .pre-medium{
+    font-size: 15px;
+}
+/*ESTILOS PARA LAS TABLAS DE CONTACTOS*/
+.contact{
+    margin-bottom: 30px;
+    overflow-x: auto;
+}
+.cont-tabla tr th,td{
+    text-align: center;
+    cursor: pointer;
+}
+.cont-tabla tr th{
+    background: #eee;
+    border-right: solid #fff 5px;
+    border-bottom: solid #ff7600 2px;
+}
+.cont-tabla tr td{
+    border-right: solid #fff 5px;
+    border-bottom: solid #ff7600 1px;
+}
+.cont-tabla{
+    width: 90%;
+    margin: auto;
+}
+
+.cont-tabla tr:hover{
+    border-right: solid #fff 5px;
+    border-bottom: solid #ff7600 3px;
+}
+.contacto-inactivo{
+    color: #ff7600;
+}
+#form-bus-contactos{
+    margin-right: 6%;
+}
+
+/*********************ESTILOS PARA EL MODAL PREINSCRIPCION*****************************/
+.modal_preinscripcion_of{
+    background: url('../images/background-modal.png');
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: none;
+    z-index: 51;
+}
+
+.fondo{
+    background: #fff;
+    top: 35px;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px;
+}
+.preinscripcion-cebecera{
+    position: absolute;
+    background: #e43270;
+    top: -20px;
+    color: #fff;
+    letter-spacing: 1px;
+    box-shadow: rgba(228,050,112,0.6) 5px 5px 15px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.preinscripcion-cebecera p{
+    font-size: 14px;
+    position: relative;
+    padding: 5px 7px;
+}
+.preinscripcion #pre-nombre-convenio{
+    margin-bottom: 5px;
+    text-align: justify;
+}
+.preinscripcion #pre-nombre-carreras{
+    margin-bottom: 15px;
+}
+.preinscripcion #pre-nombre-carrera{
+    color: #e67e22;
+}
+.preinscripcion{
+    margin-top: 15px;
+}
+.preinscripcion-form{
+    color: #aaa;
+}
+.preinscripcion-form input, .preinscripcion-form select{
+    border: none;
+    outline: none;
+    border-bottom: solid 1px #ddd;
+    width: 90%;
+    font-size: 14px;
+}
+.preinscripcion-form select{
+    outline: none;
+}
+.preinscripcion-form div select option:hover{
+    background: #e43270;
+}
+.preinscripcion-form input::placeholder{
+    transition: all 1.5s;
+    color: #aaa;
+    padding-left: 20px;
+}
+.preinscripcion-form input:focus{
+    border-bottom: solid 2px #e43270;
+    transition: all 0.5s;
+}
+.preinscripcion-form input:focus::placeholder{
+    opacity: 0;
+    transform: translateX(100%);
+    transition: 0.5s;
+}
+.preinscripcion-form div label{
+    font-size: 14px;
+    position: relative;
+}
+.preinscripcion-form button{
+    background: none;
+    border: none;
+    color: #df2669;
+    outline: none;
+    transition: 0.5s;
+}
+.preinscripcion-form button:hover{
+    letter-spacing: 2px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.preinscripcion-form button, .preinscripcion-form input, .preinscripcion-form select{
+    margin-bottom: 15px;
+}
+.preinscripcion-form select{
+    margin-left: 25px;
+}
+.preinscripcion-form button{
+    font-size: 16px;
+}
+#menu_xs_ramiro{
+    display: none;
+    color: #fff;
+    background: #ff7600;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    padding: 15px;
+    font-size: 18px;
+    -webkit-box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.3);
+    margin-top: 7px;
+    right: 7px;
+    position: absolute;
+    cursor: pointer;
+}
+
+@media (max-width: 768px){
+    #menu_xs_ramiro{
+        display: block;
+        position: fixed;
+        z-index: 5;
+    }
+    .menu{
+        display: none;
+    }
+    .menu a{
+        display: inline;
+        width: 100%;
+        background: #fff;
+        top: 0;
+        float: left;
+        left: -40px;
+    }
+    .menu-cabecera{
+        padding: 0;
+        background: #fff;
+        -webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.3);
+        -moz-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.3);
+        box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.3);
+    }
+    .logo{
+        left: -20px;
+        display: block;
+    }
+}
