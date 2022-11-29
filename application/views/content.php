@@ -1,7 +1,7 @@
 <div class="cs-height_90 cs-height_lg_80"></div>
 
 <!-- Start Hero -->
-<section class="cs-hero cs-style4 cs-bg cs-center" data-src="<?php echo base_url('assets/public_html/front_uno/assets/img/hero_bg4.jpg')?>">
+<section class="cs-hero cs-style4 cs-bg cs-center" data-src="../assets/img/hero_bg4.jpg">
     <div class="container-fluid">
         <div class="cs-hero_in">
             <div class="cs-hero_in_left">
@@ -14,7 +14,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="cs-hero_in_right">
                 <div class="cs-slider cs-style1">
                     <div class="cs-slider_container" data-autoplay="0" data-loop="1" data-speed="600" data-center="1" data-slides-per-view="responsive" data-xs-slides="1" data-sm-slides="3" data-md-slides="3" data-lg-slides="3" data-add-slides="3">
@@ -26,14 +25,14 @@
                                         2.1K
                                     </span>
                                     <a href="explore-details.html" class="cs-card_thumb cs-zoom_effect">
-                                        <img src="<?php echo base_url('assets/public_html/front_uno/assets/img/general/general_23.jpg')?>" alt="Image" class="cs-zoom_item">
+                                        <img src="../assets/img/general/general_23.jpg" alt="Image" class="cs-zoom_item">
                                     </a>
                                     <div class="cs-card_info">
                                         <a href="#" class="cs-avatar cs-white_bg">
-                                            <img src="<?php echo base_url('assets/public_html/front_uno/assets/img/avatar/avatar_12.png')?>" alt="Avatar">
+                                            <img src="../assets/img/avatar/avatar_12.png" alt="Avatar">
                                             <span>Johny E.</span>
                                         </a>
-                                        <h3 class="cs-card_title"><a href="explore-details.html">Beautiful shiba artwork 1</a></h3>
+                                        <h3 class="cs-card_title"><a href="explore-details.html">Beautiful shiba artwork</a></h3>
                                         <div class="cs-card_price">Current Bid: <b class="cs-primary_color">0.29 ETH 7/21</b></div>
                                         <hr>
                                         <div class="cs-card_footer">
@@ -53,11 +52,11 @@
                                         3.3K
                                     </span>
                                     <a href="explore-details.html" class="cs-card_thumb cs-zoom_effect">
-                                        <img src="<?php echo base_url('assets/public_html/front_uno/assets/img/general/general_24.jpg')?>" alt="Image" class="cs-zoom_item">
+                                        <img src="../assets/img/general/general_24.jpg" alt="Image" class="cs-zoom_item">
                                     </a>
                                     <div class="cs-card_info">
                                         <a href="#" class="cs-avatar cs-white_bg">
-                                            <img src="<?php echo base_url('assets/public_html/front_uno/assets/img/avatar/avatar_13.png')?>" alt="Avatar">
+                                            <img src="../assets/img/avatar/avatar_13.png" alt="Avatar">
                                             <span>Johny E.</span>
                                         </a>
                                         <h3 class="cs-card_title"><a href="explore-details.html">Cool octopus traveling</a></h3>
@@ -80,11 +79,11 @@
                                         5.3K
                                     </span>
                                     <a href="explore-details.html" class="cs-card_thumb cs-zoom_effect">
-                                        <img src="<?php echo base_url('assets/public_html/front_uno/assets/img/general/general_25.jpg')?>" alt="Image" class="cs-zoom_item">
+                                        <img src="../assets/img/general/general_25.jpg" alt="Image" class="cs-zoom_item">
                                     </a>
                                     <div class="cs-card_info">
                                         <a href="#" class="cs-avatar cs-white_bg">
-                                            <img src="<?php echo base_url('assets/public_html/front_uno/assets/img/avatar/avatar_14.png')?>" alt="Avatar">
+                                            <img src="../assets/img/avatar/avatar_14.png" alt="Avatar">
                                             <span>Johny E.</span>
                                         </a>
                                         <h3 class="cs-card_title"><a href="explore-details.html">Diamond animals</a></h3>
@@ -107,11 +106,11 @@
                                         2.1K
                                     </span>
                                     <a href="explore-details.html" class="cs-card_thumb cs-zoom_effect">
-                                        <img src="<?php echo base_url('assets/public_html/front_uno/assets/img/general/general_23.jpg')?>" alt="Image" class="cs-zoom_item">
+                                        <img src="../assets/img/general/general_23.jpg" alt="Image" class="cs-zoom_item">
                                     </a>
                                     <div class="cs-card_info">
                                         <a href="#" class="cs-avatar cs-white_bg">
-                                            <img src="<?php echo base_url('assets/public_html/front_uno/assets/img/avatar/avatar_12.png')?>" alt="Avatar">
+                                            <img src="../assets/img/avatar/avatar_12.png" alt="Avatar">
                                             <span>Johny E.</span>
                                         </a>
                                         <h3 class="cs-card_title"><a href="explore-details.html">Beautiful shiba artwork</a></h3>
@@ -127,7 +126,60 @@
                                     </div>
                                 </div>
                             </div><!-- .cs-slide -->
-                            
+                            <div class="cs-slide">
+                                <div class="cs-card cs-style4 cs-box_shadow cs-white_bg">
+                                    <span class="cs-card_like cs-primary_color">
+                                        <i class="fas fa-heart fa-fw"></i>
+                                        3.3K
+                                    </span>
+                                    <a href="explore-details.html" class="cs-card_thumb cs-zoom_effect">
+                                        <img src="../assets/img/general/general_24.jpg" alt="Image" class="cs-zoom_item">
+                                    </a>
+                                    <div class="cs-card_info">
+                                        <a href="#" class="cs-avatar cs-white_bg">
+                                            <img src="../assets/img/avatar/avatar_13.png" alt="Avatar">
+                                            <span>Johny E.</span>
+                                        </a>
+                                        <h3 class="cs-card_title"><a href="explore-details.html">Cool octopus traveling</a></h3>
+                                        <div class="cs-card_price">Current Bid: <b class="cs-primary_color">0.63 ETH 7/21</b></div>
+                                        <hr>
+                                        <div class="cs-card_footer">
+                                            <span class="cs-card_btn_1" data-modal="#history_1">
+                                                <i class="fas fa-redo fa-fw"></i>
+                                                View History
+                                            </span>
+                                            <span class="cs-card_btn_2" data-modal="#bid_1"><span>Place Bid</span></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- .cs-slide -->
+                            <div class="cs-slide">
+                                <div class="cs-card cs-style4 cs-box_shadow cs-white_bg">
+                                    <span class="cs-card_like cs-primary_color">
+                                        <i class="fas fa-heart fa-fw"></i>
+                                        5.3K
+                                    </span>
+                                    <a href="explore-details.html" class="cs-card_thumb cs-zoom_effect">
+                                        <img src="../assets/img/general/general_25.jpg" alt="Image" class="cs-zoom_item">
+                                    </a>
+                                    <div class="cs-card_info">
+                                        <a href="#" class="cs-avatar cs-white_bg">
+                                            <img src="../assets/img/avatar/avatar_14.png" alt="Avatar">
+                                            <span>Johny E.</span>
+                                        </a>
+                                        <h3 class="cs-card_title"><a href="explore-details.html">Diamond animals</a></h3>
+                                        <div class="cs-card_price">Current Bid: <b class="cs-primary_color">0.27 ETH 7/21</b></div>
+                                        <hr>
+                                        <div class="cs-card_footer">
+                                            <span class="cs-card_btn_1" data-modal="#history_1">
+                                                <i class="fas fa-redo fa-fw"></i>
+                                                View History
+                                            </span>
+                                            <span class="cs-card_btn_2" data-modal="#bid_1"><span>Place Bid</span></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- .cs-slide -->
                         </div>
                     </div><!-- .cs-slider_container -->
                     <div class="cs-slider_arrows cs-style1 cs-center cs-hidden_mobile">

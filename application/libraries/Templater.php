@@ -23,9 +23,9 @@ class Templater
             // $data['menu_horizontal_admin'] = $this->CI->load->view('menu_horizontal_admin', $data, TRUE);
 
             /**El menu de pagina principal */
-            $data['menu-front'] = $this->CI->load->view('menu-front', $data, TRUE);
+            $data['menu_front'] = $this->CI->load->view('menu-front', $data, TRUE);
             /** la autenticacion de principal */
-            $data['auth'] = $this->CI->load->view('auth', $data, TRUE);
+            $data['auth_front'] = $this->CI->load->view('auth-front', $data, TRUE);
             
             $data['contenido'] = $this->CI->load->view($contenido, $data, TRUE);
             $base = $this->CI->load->view($base, $data, TRUE);
