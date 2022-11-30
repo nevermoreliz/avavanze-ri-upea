@@ -1,5 +1,5 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
 /*
 | -------------------------------------------------------------------
@@ -95,28 +95,28 @@ $query_builder = TRUE;
 // 	'save_queries' => TRUE
 // );
 
- $db['default'] = array(
- 	'dsn'	=> '',
- 	// 'hostname' => 'localhost',
-	'hostname' => 'sql304.byethost33.com',
-	// 'username' => 'root',
- 	'username' => 'b33_33099814',
- 	// 'password' => '',
-	 'password' => 'Nevermore1@',
- 	// 'database' => 'relaciones',
-	 'database' => 'b33_33099814_relaciones',
- 	'dbdriver' => 'mysqli',
- 	'dbprefix' => '',
- 	'pconnect' => FALSE,
- 	'db_debug' => (ENVIRONMENT !== 'development'),
- 	'cache_on' => FALSE,
- 	'cachedir' => '',
- 	'char_set' => 'utf8',
- 	'dbcollat' => 'utf8_general_ci',
- 	'swap_pre' => '',
- 	'encrypt' => FALSE,
- 	'compress' => FALSE,
- 	'stricton' => FALSE,
- 	'failover' => array(),
- 	'save_queries' => TRUE
- );
+$db['default'] = array(
+    'dsn' => '',
+    'hostname' => 'localhost',
+//	'hostname' => 'sql304.byethost33.com',
+    'username' => 'root',
+// 	'username' => 'b33_33099814',
+    'password' => '',
+//	 'password' => 'Nevermore1@',
+    'database' => 'relaciones',
+//	 'database' => 'b33_33099814_relaciones',
+    'dbdriver' => 'mysqli',
+    'dbprefix' => '',
+    'pconnect' => FALSE,
+    'db_debug' => (ENVIRONMENT !== 'development'),
+    'cache_on' => FALSE,
+    'cachedir' => '',
+    'char_set' => 'utf8',
+    'dbcollat' => 'utf8_general_ci',
+    'swap_pre' => '',
+    'encrypt' => FALSE,
+    'compress' => FALSE,
+    'stricton' => FALSE,
+    'failover' => array(),
+    'save_queries' => TRUE
+);

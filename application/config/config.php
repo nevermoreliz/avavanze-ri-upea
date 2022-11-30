@@ -28,9 +28,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 // Url Local
 // $config['base_url'] =  'http://ri-upea.test';
+$config['base_url'] =  'http://ri-upea-2.test';
 
 // Url Servidor
-$config['base_url'] =  'http://ri-dev.66ghz.com/';
+//$config['base_url'] =  'http://ri-dev.66ghz.com/';
 
 
 //$config['base_url'] = 'https://'.$_SERVER['HTTP_HOST'].'';

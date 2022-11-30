@@ -26,6 +26,6 @@ class Principal extends CI_Controller
     {
 
         // enviar datos a la vista index de Views/Marketing/index.php
-        $this->templater->view_front('front_end/index');
+        $this->templater->view_front('Front_end/index');
     }
 }
