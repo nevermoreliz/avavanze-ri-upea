@@ -1,0 +1,6 @@
+.fondo-gradiente {
+    background-blend-mode: multiply;
+    /* background:  linear-gradient(155.4deg,#003061 50%,#e30613 0%) !important; */
+    background: linear-gradient(165deg, #003061 50%, #e30613 0%) !important;
+    /* background-image:url(../imgs/banner/banner.png), linear-gradient(154deg,#003061 50%,#e30613 0%) !important; */
+}

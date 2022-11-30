@@ -24,23 +24,34 @@
 
     <!-- <link rel="stylesheet" href="<?php base_url('../assets/css/style.css') ?>"> -->
     <link href="<?= base_url('assets/public_html/front_uno/assets/css/style.css') ?>" rel='stylesheet' type='text/css'>
+    <link href="<?= base_url('assets/public_html/front_uno/assets/css/style-jf.css') ?>" rel='stylesheet' type='text/css'>
+
+    <?php if (is_file(FCPATH . 'assets/public_html/assets/css/' . $this->router->class . '/' . $this->router->method . '.css')) : ?>
+        <link href="<?php echo base_url('assets/public_html/assets/css/' . $this->router->class . '/' . $this->router->method . '.css'); ?>" rel="stylesheet" />
+    <?php endif; ?>
 
 </head>
 
 <body>
 
-    <div class="cs-preloader cs-center">
+
+
+    <!-- <div class="cs-preloader cs-center">
         <div class="cs-preloader_in"></div>
         <span>Loading</span>
-    </div>
+    </div> -->
 
     <!-- Start Header Section -->
-    <header class="cs-site_header cs-style1 cs-sticky-header cs-white_bg">
+    <!-- <header class="cs-site_header cs-style1 cs-sticky-header cs-white_bg""> -->
+    <header class="cs-site_header cs-style1 cs-sticky-header " style="background-color: #003061; color:white;">
         <div class="cs-main_header">
             <div class="container-fluid">
                 <div class="cs-main_header_in">
                     <div class="cs-main_header_left">
-                        <a class="cs-site_branding" href="index.html"><img src="http://thememarch.com/demo/html/enfhess-html/enfhess-dark/assets/img/logo.svg" alt="Logo"></a>
+                        <a class="cs-site_branding" href="index.html">
+                            <!-- <img src="http://thememarch.com/demo/html/enfhess-html/enfhess-dark/assets/img/logo.svg" alt="Logo"> -->
+                            <img src="<?php echo base_url('assets/public_html/front_uno/assets/img/img-pagina/logo-mejorado-dorado.svg') ?>" alt="Logo">
+                        </a>
                     </div>
                     <div class="cs-main_header_right">
 
@@ -320,6 +331,11 @@
     <script src="<?php echo base_url('assets/public_html/front_uno/assets/js/plugins/jquery.slick.min.js'); ?>"></script>
     <!-- <script src="../assets/js/main.js"></script> -->
     <script src="<?php echo base_url('assets/public_html/front_uno/assets/js/main.js'); ?>"></script>
+
+
+    <?php if (is_file(FCPATH . 'assets/public_html/assets/js/' . $this->router->class . '/' . $this->router->method . '.js')) : ?>
+        <script src="<?php echo base_url('assets/public_html/assets/js/' . $this->router->class . '/' . $this->router->method . '.js'); ?>"></script>
+    <?php endif; ?>
 </body>
 
 <!-- Mirrored from thememarch.com/demo/html/enfhess-html/enfhess-dark/light-mode/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 19 Nov 2022 08:35:00 GMT -->

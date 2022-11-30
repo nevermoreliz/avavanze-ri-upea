@@ -3,7 +3,7 @@
         <ul class="cs-nav_list">
             <li class="menu-item-has-children">
                 <a href="index.html">Home</a>
-                <ul>
+                <ul class="child-menu">
                     <li><a href="index.html">Home Default</a></li>
                     <li><a href="index_2.html">Home Style 2</a></li>
                     <li><a href="index_3.html">Home Style 3</a></li>

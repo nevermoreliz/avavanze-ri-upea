@@ -39,10 +39,10 @@ if (!function_exists('css_tag')) {
     function css_tag($src = '', $type = 'text/css')
     {
         $css = '<st' . 'yle type="' . $type . '">';
-        if (is_file(FCPATH . 'assets/css/' . $src . '.css')) {
+        if (is_file(FCPATH . 'assets/public_html/assets/css/' . $src . '.css')) {
             if (strpos($src, '://') === FALSE) {
                 ob_start();
-                require(FCPATH . 'assets/css/' . $src . '.' . 'css');
+                require(FCPATH . 'assets/public_html/assets/css/' . $src . '.' . 'css');
                 $css .= ob_get_clean();
             }
         }
@@ -56,10 +56,10 @@ if (!function_exists('script_tag')) {
     function script_tag($src = '', $flashdata = NULL, $type = 'text/javascript')
     {
         $script = '<scr' . 'ipt type="' . $type . '">';
-        if (is_file(FCPATH . 'assets/js/' . $src . '.js')) {
+        if (is_file(FCPATH . 'assets/public_html/assets/js/' . $src . '.js')) {
             if (strpos($src, '://') === FALSE) {
                 ob_start();
-                require(FCPATH . 'assets/js/' . $src . '.' . 'js');
+                require(FCPATH . 'assets/public_html/assets/js/' . $src . '.' . 'js');
                 $script .= ob_get_clean();
             }
         }
@@ -446,48 +446,48 @@ function estado_nota_final_modulo($nota = null)
     }
 }
 
-if (!function_exists('select_combo')) {
-    function select_combo($lista = null, $combo)
-    {
-        switch ($combo) {
-            case 'gestion':
-                $array_id_gestion = array_column($lista, 'id_gestion');
-                $id_gestion_max = max($array_id_gestion);
-                return select_combobox($lista, ['name' => 'id_gestion', 'id' => 'id_gestion', 'required' => '', 'id_value' => 'id_gestion', 'value' => 'gestion', 'id_select' => '']);
-                break;
-            case 'grado_academico':
-                return select_combobox($lista, ['name' => 'id_grado_academico', 'id' => 'id_grado_academico', 'required' => '', 'id_value' => 'id_grado_academico', 'value' => 'descripcion_grado_academico', 'id_select' => '']);
-                break;
-            case 'tipo_programa':
-                return select_combobox($lista, ['name' => 'id_tipo_programa', 'id' => 'id_tipo_programa', 'required' => '', 'id_value' => 'id_tipo_programa', 'value' => 'nombre_tipo_programa', 'id_select' => '']);
-                break;
-            case 'version':
-                return select_combobox($lista, ['name' => 'version_programa', 'id' => 'version_programa', 'required' => '', 'id_value' => 'numero_version', 'value' => 'numero_version', 'id_select' => '']);
-                break;
-            default:
-                return '';
-                break;
-        }
-    }
-}
+// if (!function_exists('select_combo')) {
+//     function select_combo($lista = null, $combo)
+//     {
+//         switch ($combo) {
+//             case 'gestion':
+//                 $array_id_gestion = array_column($lista, 'id_gestion');
+//                 $id_gestion_max = max($array_id_gestion);
+//                 return select_combobox($lista, ['name' => 'id_gestion', 'id' => 'id_gestion', 'required' => '', 'id_value' => 'id_gestion', 'value' => 'gestion', 'id_select' => '']);
+//                 break;
+//             case 'grado_academico':
+//                 return select_combobox($lista, ['name' => 'id_grado_academico', 'id' => 'id_grado_academico', 'required' => '', 'id_value' => 'id_grado_academico', 'value' => 'descripcion_grado_academico', 'id_select' => '']);
+//                 break;
+//             case 'tipo_programa':
+//                 return select_combobox($lista, ['name' => 'id_tipo_programa', 'id' => 'id_tipo_programa', 'required' => '', 'id_value' => 'id_tipo_programa', 'value' => 'nombre_tipo_programa', 'id_select' => '']);
+//                 break;
+//             case 'version':
+//                 return select_combobox($lista, ['name' => 'version_programa', 'id' => 'version_programa', 'required' => '', 'id_value' => 'numero_version', 'value' => 'numero_version', 'id_select' => '']);
+//                 break;
+//             default:
+//                 return '';
+//                 break;
+//         }
+//     }
+// }
 
-if (!function_exists('select_combobox')) {
-    function select_combobox($lista = null, $config)
-    {
-        $config = (object)$config;
-        $id_value = $config->id_value;
-        $value = $config->value;
-        $combo = "<select class='select2 form-control custom-select' style='width: 100%;' name='" . $config->name . "' id='" . $config->id . "' " . $config->required . ">";
-        $combo .= "<option value=''>[TODOS]</option>";
-        foreach ($lista as $lista_fila) {
-            if ($lista_fila->$id_value != '') {
-                $combo .= "<option value='" . $lista_fila->$id_value . "' " . (($lista_fila->$id_value == $config->id_select) ? 'selected="selected"' : '') . ">" . $lista_fila->$value . "</option>";
-            }
-        }
-        $combo .= "</select>";
-        return $combo;
-    }
-}
+// if (!function_exists('select_combobox')) {
+//     function select_combobox($lista = null, $config)
+//     {
+//         $config = (object)$config;
+//         $id_value = $config->id_value;
+//         $value = $config->value;
+//         $combo = "<select class='select2 form-control custom-select' style='width: 100%;' name='" . $config->name . "' id='" . $config->id . "' " . $config->required . ">";
+//         $combo .= "<option value=''>[TODOS]</option>";
+//         foreach ($lista as $lista_fila) {
+//             if ($lista_fila->$id_value != '') {
+//                 $combo .= "<option value='" . $lista_fila->$id_value . "' " . (($lista_fila->$id_value == $config->id_select) ? 'selected="selected"' : '') . ">" . $lista_fila->$value . "</option>";
+//             }
+//         }
+//         $combo .= "</select>";
+//         return $combo;
+//     }
+// }
 
 if (!function_exists('verificar_datos_personales')) {
     function verificar_datos_personales($tabla, $condicion, $columnas)
@@ -607,26 +607,27 @@ if (!function_exists('esta_completo_datos_participante')) {
         ];
     }
 }
-if (!function_exists('rol_texto')) {
-    function rol_texto($str = '', $plural)
-    {
-        switch ($str) {
-            case 'DOCENTE_POSGRADO':
-                return $plural == true ? 'Docentes' : 'Docente';
-                break;
-            case 'POSGRADUANTE':
-                return $plural == true ? 'Posgraduantes' : 'Posgraduante';
-                break;
-            case 'ADMINISTRADOR':
-                return $plural == true ? 'Administradores' : 'Administrador';
-                break;
 
-            default:
-                return $str;
-                break;
-        }
-    }
-}
+// if (!function_exists('rol_texto')) {
+//     function rol_texto($str = '', $plural)
+//     {
+//         switch ($str) {
+//             case 'DOCENTE_POSGRADO':
+//                 return $plural == true ? 'Docentes' : 'Docente';
+//                 break;
+//             case 'POSGRADUANTE':
+//                 return $plural == true ? 'Posgraduantes' : 'Posgraduante';
+//                 break;
+//             case 'ADMINISTRADOR':
+//                 return $plural == true ? 'Administradores' : 'Administrador';
+//                 break;
+
+//             default:
+//                 return $str;
+//                 break;
+//         }
+//     }
+// }
 
 if (!function_exists('cantidad_matriculas')) {
     function cantidad_matriculas($grado_academico, $cantidad, $gestiones)

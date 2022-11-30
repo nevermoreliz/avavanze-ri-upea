@@ -29,6 +29,6 @@ class Front_end extends CI_Controller
     public function index()
     {
         // enviar datos a la vista index de Views/Marketing/index.php
-        $this->templater->view_front('front-principal/index', []);
+        $this->templater->view_front('front_end/index', []);
     }
 }

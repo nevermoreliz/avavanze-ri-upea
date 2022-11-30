@@ -16,10 +16,6 @@ class Principal extends CI_Controller
     public function __construct()
     {
         parent::__construct();
-        $this->load->model('marketing_model');
-        $this->load->model('persona_model');
-        $this->load->model('auth_model');
-        $this->load->helper('form');
     }
 
     /**
@@ -30,6 +26,6 @@ class Principal extends CI_Controller
     {
 
         // enviar datos a la vista index de Views/Marketing/index.php
-        $this->templater->view_front('front-principal/index');
+        $this->templater->view_front('front_end/index');
     }
 }
