@@ -13,7 +13,7 @@
             </li>
             <li class="menu-item-has-children">
                 <a href="explore-1.html">Explore</a>
-                <ul>
+                <ul class="child-menu">
                     <li><a href="explore-1.html">Explore Style 1</a></li>
                     <li><a href="explore-2.html">Explore Style 2</a></li>
                     <li><a href="explore-details.html">Explore Details</a></li>
@@ -25,7 +25,7 @@
             <li><a href="how-it-works.html">How It Works</a></li>
             <li class="menu-item-has-children">
                 <a href="blog.html">Community</a>
-                <ul>
+                <ul class="child-menu">
                     <li><a href="blog.html">Blog</a></li>
                     <li><a href="blog-with-sidebar.html">Blog With Sidebar</a></li>
                     <li><a href="blog-details.html">Blog Details</a></li>
@@ -34,7 +34,7 @@
             <li><a href="activity.html">Activity</a></li>
             <li class="menu-item-has-children cs-mega-menu">
                 <a href="#">Pages</a>
-                <ul class="cs-mega-wrapper">
+                <ul class="cs-mega-wrapper child-menu">
                     <li class="menu-item-has-children">
                         <a href="#">Column One</a>
                         <ul>

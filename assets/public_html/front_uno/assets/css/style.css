@@ -5601,7 +5601,8 @@ li.menu-item-has-children
   left: 0;
   top: 0;
   border-radius: inherit;
-  background: linear-gradient(116.85deg, rgba(252, 70, 107, 0.2) 0%, rgba(63, 94, 251, 0.2) 100%);
+  /* modificado por jhonatan */
+  /* background: linear-gradient(116.85deg, rgba(252, 70, 107, 0.2) 0%, rgba(63, 94, 251, 0.2) 100%); */
 }
 
 .cs-hero.cs-style4 .cs-card.cs-style4 > *:not(span) {

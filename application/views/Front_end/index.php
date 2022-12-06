@@ -21,109 +21,81 @@
                     <div class="cs-slider_container" data-autoplay="0" data-loop="1" data-speed="600" data-center="1" data-slides-per-view="responsive" data-xs-slides="1" data-sm-slides="3" data-md-slides="3" data-lg-slides="3" data-add-slides="3">
                         <div class="cs-slider_wrapper">
                             <div class="cs-slide">
-                                <div class="cs-card cs-style4 cs-box_shadow cs-white_bg">
-                                    <span class="cs-card_like cs-primary_color">
-                                        <i class="fas fa-heart fa-fw"></i>
-                                        2.1K
-                                    </span>
-                                    <a href="explore-details.html" class="cs-card_thumb cs-zoom_effect">
-                                        <img src="<?php echo base_url('assets/public_html/front_uno/assets/img/general/general_23.jpg') ?>" alt="Image" class="cs-zoom_item">
+                                <div class="cs-card cs-style4 cs-box_shadow cs-white_bg" style="background-color:#003061">
+                                    
+                                    <a href="explore-details.html" class="cs-card_thumb cs-zoom_effect" style="border-radius:10px">
+                                    <img src="<?php echo base_url('assets/public_html/assets/img/recursos/pdf1.jpg') ?>" alt="Image" class="cs-zoom_item">
                                     </a>
-                                    <div class="cs-card_info">
-                                        <a href="#" class="cs-avatar cs-white_bg">
-                                            <img src="<?php echo base_url('assets/public_html/front_uno/assets/img/avatar/avatar_12.png') ?>" alt="Avatar">
-                                            <span>Johny E.</span>
-                                        </a>
-                                        <h3 class="cs-card_title"><a href="explore-details.html">Beautiful shiba artwork 1</a></h3>
-                                        <div class="cs-card_price">Current Bid: <b class="cs-primary_color">0.29 ETH 7/21</b></div>
+                                    <div class="cs-card_info" style="padding-top:15px; padding-left:2px;padding-right:2px">
+                                    
+
                                         <hr>
-                                        <div class="cs-card_footer">
-                                            <span class="cs-card_btn_1" data-modal="#history_1">
-                                                <i class="fas fa-redo fa-fw"></i>
-                                                View History
-                                            </span>
-                                            <span class="cs-card_btn_2" data-modal="#bid_1"><span>Place Bid</span></span>
+                                        <div class="cs-card_footer" style="padding: 5px 2px 5px 2px">
+
+                                            <div class="d-grid gap-2 col-12 mx-auto text-center">
+                                                <span class="cs-card_btn_2" style="border-radius: 5px;" data-modal="#bid_1"><span>Más Información</span></span>
+                                            </div>
+
                                         </div>
                                     </div>
                                 </div>
                             </div><!-- .cs-slide -->
                             <div class="cs-slide">
-                                <div class="cs-card cs-style4 cs-box_shadow cs-white_bg">
-                                    <span class="cs-card_like cs-primary_color">
-                                        <i class="fas fa-heart fa-fw"></i>
-                                        3.3K
-                                    </span>
-                                    <a href="explore-details.html" class="cs-card_thumb cs-zoom_effect">
-                                        <img src="<?php echo base_url('assets/public_html/front_uno/assets/img/general/general_24.jpg') ?>" alt="Image" class="cs-zoom_item">
+                                <div class="cs-card cs-style4 cs-box_shadow cs-white_bg" style="background-color:#003061">
+                                    
+                                    <a href="explore-details.html" class="cs-card_thumb cs-zoom_effect" style="border-radius:10px">
+                                    <img src="<?php echo base_url('assets/public_html/assets/img/recursos/pdf1.jpg') ?>" alt="Image" class="cs-zoom_item">
                                     </a>
-                                    <div class="cs-card_info">
-                                        <a href="#" class="cs-avatar cs-white_bg">
-                                            <img src="<?php echo base_url('assets/public_html/front_uno/assets/img/avatar/avatar_13.png') ?>" alt="Avatar">
-                                            <span>Johny E.</span>
-                                        </a>
-                                        <h3 class="cs-card_title"><a href="explore-details.html">Cool octopus traveling</a></h3>
-                                        <div class="cs-card_price">Current Bid: <b class="cs-primary_color">0.63 ETH 7/21</b></div>
+                                    <div class="cs-card_info" style="padding-top:15px; padding-left:2px;padding-right:2px">
+                                    
+
                                         <hr>
-                                        <div class="cs-card_footer">
-                                            <span class="cs-card_btn_1" data-modal="#history_1">
-                                                <i class="fas fa-redo fa-fw"></i>
-                                                View History
-                                            </span>
-                                            <span class="cs-card_btn_2" data-modal="#bid_1"><span>Place Bid</span></span>
+                                        <div class="cs-card_footer" style="padding: 5px 2px 5px 2px">
+
+                                            <div class="d-grid gap-2 col-12 mx-auto text-center">
+                                                <span class="cs-card_btn_2" style="border-radius: 5px;" data-modal="#bid_1"><span>Ver Más</span></span>
+                                            </div>
+
                                         </div>
                                     </div>
                                 </div>
                             </div><!-- .cs-slide -->
                             <div class="cs-slide">
-                                <div class="cs-card cs-style4 cs-box_shadow cs-white_bg">
-                                    <span class="cs-card_like cs-primary_color">
-                                        <i class="fas fa-heart fa-fw"></i>
-                                        5.3K
-                                    </span>
-                                    <a href="explore-details.html" class="cs-card_thumb cs-zoom_effect">
-                                        <img src="<?php echo base_url('assets/public_html/front_uno/assets/img/general/general_25.jpg') ?>" alt="Image" class="cs-zoom_item">
+                                <div class="cs-card cs-style4 cs-box_shadow cs-white_bg" style="background-color:#003061">
+                                    
+                                    <a href="explore-details.html" class="cs-card_thumb cs-zoom_effect" style="border-radius:10px">
+                                    <img src="<?php echo base_url('assets/public_html/assets/img/recursos/pdf1.jpg') ?>" alt="Image" class="cs-zoom_item">
                                     </a>
-                                    <div class="cs-card_info">
-                                        <a href="#" class="cs-avatar cs-white_bg">
-                                            <img src="<?php echo base_url('assets/public_html/front_uno/assets/img/avatar/avatar_14.png') ?>" alt="Avatar">
-                                            <span>Johny E.</span>
-                                        </a>
-                                        <h3 class="cs-card_title"><a href="explore-details.html">Diamond animals</a></h3>
-                                        <div class="cs-card_price">Current Bid: <b class="cs-primary_color">0.27 ETH 7/21</b></div>
+                                    <div class="cs-card_info" style="padding-top:15px; padding-left:2px;padding-right:2px">
+                                    
+
                                         <hr>
-                                        <div class="cs-card_footer">
-                                            <span class="cs-card_btn_1" data-modal="#history_1">
-                                                <i class="fas fa-redo fa-fw"></i>
-                                                View History
-                                            </span>
-                                            <span class="cs-card_btn_2" data-modal="#bid_1"><span>Place Bid</span></span>
+                                        <div class="cs-card_footer" style="padding: 5px 2px 5px 2px">
+
+                                            <div class="d-grid gap-2 col-12 mx-auto text-center">
+                                                <span class="cs-card_btn_2" style="border-radius: 5px;" data-modal="#bid_1"><span>Ver Más</span></span>
+                                            </div>
+
                                         </div>
                                     </div>
                                 </div>
                             </div><!-- .cs-slide -->
                             <div class="cs-slide">
-                                <div class="cs-card cs-style4 cs-box_shadow cs-white_bg">
-                                    <span class="cs-card_like cs-primary_color">
-                                        <i class="fas fa-heart fa-fw"></i>
-                                        2.1K
-                                    </span>
-                                    <a href="explore-details.html" class="cs-card_thumb cs-zoom_effect">
-                                        <img src="<?php echo base_url('assets/public_html/front_uno/assets/img/general/general_23.jpg') ?>" alt="Image" class="cs-zoom_item">
+                                <div class="cs-card cs-style4 cs-box_shadow cs-white_bg" style="background-color:#003061">
+                                    
+                                    <a href="explore-details.html" class="cs-card_thumb cs-zoom_effect" style="border-radius:10px">
+                                    <img src="<?php echo base_url('assets/public_html/assets/img/recursos/pdf1.jpg') ?>" alt="Image" class="cs-zoom_item">
                                     </a>
-                                    <div class="cs-card_info">
-                                        <a href="#" class="cs-avatar cs-white_bg">
-                                            <img src="<?php echo base_url('assets/public_html/front_uno/assets/img/avatar/avatar_12.png') ?>" alt="Avatar">
-                                            <span>Johny E.</span>
-                                        </a>
-                                        <h3 class="cs-card_title"><a href="explore-details.html">Beautiful shiba artwork</a></h3>
-                                        <div class="cs-card_price">Current Bid: <b class="cs-primary_color">0.29 ETH 7/21</b></div>
+                                    <div class="cs-card_info" style="padding-top:15px; padding-left:2px;padding-right:2px">
+                                    
+
                                         <hr>
-                                        <div class="cs-card_footer">
-                                            <span class="cs-card_btn_1" data-modal="#history_1">
-                                                <i class="fas fa-redo fa-fw"></i>
-                                                View History
-                                            </span>
-                                            <span class="cs-card_btn_2" data-modal="#bid_1"><span>Place Bid</span></span>
+                                        <div class="cs-card_footer" style="padding: 5px 2px 5px 2px">
+
+                                            <div class="d-grid gap-2 col-12 mx-auto text-center">
+                                                <span class="cs-card_btn_2" style="border-radius: 5px;" data-modal="#bid_1"><span>Ver Más</span></span>
+                                            </div>
+
                                         </div>
                                     </div>
                                 </div>

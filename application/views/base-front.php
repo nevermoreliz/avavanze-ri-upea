@@ -1,3 +1,10 @@
+<?php defined('BASEPATH') or exit('No direct script access allowed'); ?>
+<?php if (!isset($notificaciones)) $notificaciones = ''; ?>
+<?php if (!isset($auth)) $auth = ''; ?>
+<?php if (!isset($menu)) $menu = ''; ?>
+<?php if (!isset($menu_horizontal)) $menu_horizontal = ''; ?>
+<?php if (!isset($contenido)) $contenido = ''; ?>
+
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 
