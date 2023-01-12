@@ -1,71 +1,142 @@
-<div class="cs-nav_in">
-    <div class="cs-nav">
-        <ul class="cs-nav_list">
-            <li class="menu-item-has-children">
-                <a href="index.html">Home</a>
-                <ul class="child-menu">
-                    <li><a href="index.html">Home Default</a></li>
-                    <li><a href="index_2.html">Home Style 2</a></li>
-                    <li><a href="index_3.html">Home Style 3</a></li>
-                    <li><a href="index_4.html">Home Style 4</a></li>
-                    <li><a href="index_5.html">Home Style 5</a></li>
-                </ul>
-            </li>
-            <li class="menu-item-has-children">
-                <a href="explore-1.html">Explore</a>
-                <ul class="child-menu">
-                    <li><a href="explore-1.html">Explore Style 1</a></li>
-                    <li><a href="explore-2.html">Explore Style 2</a></li>
-                    <li><a href="explore-details.html">Explore Details</a></li>
-                    <li><a href="live-action.html">Live Auction</a></li>
-                    <li><a href="collection.html">Collection</a></li>
-                    <li><a href="collection-details.html">Collection Details</a></li>
-                </ul>
-            </li>
-            <li><a href="how-it-works.html">How It Works</a></li>
-            <li class="menu-item-has-children">
-                <a href="blog.html">Community</a>
-                <ul class="child-menu">
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="blog-with-sidebar.html">Blog With Sidebar</a></li>
-                    <li><a href="blog-details.html">Blog Details</a></li>
-                </ul>
-            </li>
-            <li><a href="activity.html">Activity</a></li>
-            <li class="menu-item-has-children cs-mega-menu">
-                <a href="#">Pages</a>
-                <ul class="cs-mega-wrapper child-menu">
-                    <li class="menu-item-has-children">
-                        <a href="#">Column One</a>
-                        <ul>
-                            <li><a href="connect-wallet.html">Connect Wallet</a></li>
-                            <li><a href="about.html">About Us</a></li>
-                            <li><a href="help-center.html">Help Center</a></li>
-                            <li><a href="help-center-browser-by-category.html">Help Center Catagory</a></li>
-                            <li><a href="help-details.html">Help Center Details</a></li>
-                            <li><a href="terms-condition.html">Terms & Conditions</a></li>
-                            <li><a href="privacy-policy.html">Privacy Policy</a></li>
-                            <li><a href="faq.html">FAQ</a></li>
-                            <li><a href="404.html">404</a></li>
+<div class="container">
+    <div class="main-header">
+        <div class="header-left">
+            <div class="header-logo">
+                <!-- <a href="index.html" class="d-flex"><img alt="jobhub" src="assets/imgs/theme/jobhub-logo.svg" /></a> -->
+                <a href="index.html" class="d-flex"><img alt="jobhub" src="<?= base_url('assets/public_html/front_tres/assets/imgs/img-pagina/LOGO-MEJORADO-dorado.svg') ?>" /></a>
+            </div>
+            <div class="header-nav">
+                <!-- MENU FRONT -->
+                <nav class="nav-main-menu d-none d-xl-block">
+                    <ul class="main-menu">
+                        <li class="">
+                            <a class="active" href="index.html">Inicio</a>
+                            <!-- <ul class="sub-menu">
+                                    <li><a href="index.html">Home 1</a></li>
+                                    <li><a href="index-2.html">Home 2</a></li>
+                                    <li><a href="index-3.html">Home 3</a></li>
+                                </ul> -->
+                        </li>
+                        <li class="has-children">
+                            <a href="#">Institucional</a>
+                            <ul class="sub-menu">
+                                <li><a href="page-about.html">Visi&oacute;n Y Misi&oacute;n</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="has-children">
+                            <a href="employers-grid.html">Convenios</a>
+                            <ul class="sub-menu">
+                                <li><a href="employers-grid.html">Nacional</a></li>
+                                <li><a href="employers-grid-2.html">Internacional</a></li>
+                                <li><a href="employers-list.html">Idiomas</a></li>
+                                <li class="hr"><span></span></li>
+                                <li><a href="employers-list.html">Membresias</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-children">
+                            <a href="candidates-grid.html">Becas Y Movilidad</a>
+                            <ul class="sub-menu">
+                                <li><a href="candidates-grid.html">Becas</a></li>
+                                <li><a href="candidates-grid-2.html">Movilidad Docente/Administrativo</a></li>
+                                <li><a href="candidates-list.html">Movilidad Estudiante</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-children">
+                            <a href="#">Publicaciones</a>
+                            <ul class="sub-menu">
+                                <li><a href="blog-grid.html">Eventos</a></li>
+                                <li><a href="blog-grid-2.html">Noticias</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </nav>
+
+                <div class="burger-icon burger-icon-white">
+                    <span class="burger-icon-top"></span>
+                    <span class="burger-icon-mid"></span>
+                    <span class="burger-icon-bottom"></span>
+                </div>
+            </div>
+        </div>
+        <!-- SECCION 2 DEL MENU DE NAVEGACIÓN -->
+        <div class="header-right">
+            <div class="block-signin">
+                <a href="#" class="btn btn-outline-light btn-md btn-shadow ml-40 hover-up" style="font-family: 'Montserrat', sans-serif;">Iniciar Sesión</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="mobile-header-active mobile-header-wrapper-style perfect-scrollbar">
+    <div class="mobile-header-wrapper-inner">
+
+        <div class="mobile-header-content-area">
+            <div class="perfect-scroll">
+                <div class="mobile-search mobile-header-border mb-30">
+                    <form action="#">
+                        <input type="text" placeholder="Search for items…" />
+                        <i class="fi-rr-search"></i>
+                    </form>
+                </div>
+                <div class="mobile-menu-wrap mobile-header-border">
+                    <!-- mobile menu start -->
+                    <nav>
+                        <ul class="mobile-menu font-heading">
+                            <li class="">
+                                <a class="active" href="index.html">Inicio</a>
+                            </li>
+
+                            <li class="has-children">
+                                <a href="job-grid.html">Institucional</a>
+                                <ul class="sub-menu">
+                                    <li><a href="job-grid.html">Visi&oacute;n y Misi&oacute;n</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="has-children">
+                                <a href="employers-grid.html">Convenios</a>
+                                <ul class="sub-menu">
+                                    <li><a href="employers-grid.html">Nacional</a></li>
+                                    <li><a href="employers-grid-2.html">Internacional</a></li>
+                                    <li><a href="employers-list.html">Idiomas</a></li>
+                                    <li class="hr"><span></span></li>
+                                    <li><a href="employers-single.html">Membresias</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-children">
+                                <a href="candidates-grid.html">Becas Y Movilidad</a>
+                                <ul class="sub-menu">
+                                    <li><a href="candidates-grid.html">Becas</a></li>
+                                    <li><a href="candidates-grid-2.html">Movilidad Docente/Administrativo</a></li>
+                                    <li><a href="candidates-list.html">Movilidad Estudiante</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-children">
+                                <a href="#">Publicaciones</a>
+                                <ul class="sub-menu">
+                                    <li><a href="blog-grid.html">Noticias</a></li>
+                                    <li><a href="blog-grid-2.html">Eventos</a></li>
+                                </ul>
+                            </li>
+
                         </ul>
-                    </li>
-                    <li class="menu-item-has-children">
-                        <a href="#">Column Two</a>
-                        <ul>
-                            <li><a href="user-profile.html">Edit Profile</a></li>
-                            <li><a href="user-account-settings.html">Profile Settings</a></li>
-                            <li><a href="user-items.html">My Item</a></li>
-                            <li><a href="create-items.html">Create Items</a></li>
-                            <li><a href="user-activity.html">My Activity</a></li>
-                            <li><a href="user-wallet.html">My Wallet</a></li>
-                            <li><a href="login.html">Login</a></li>
-                            <li><a href="register.html">Register</a></li>
-                            <li><a href="forget-password.html">Forget Password</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+                    </nav>
+                    <!-- mobile menu end -->
+                </div>
+
+                <div class="mobile-social-icon mt-10 mb-50">
+                    <h6 class="mb-25">Follow Us</h6>
+                    <a href="#"><img src="assets/imgs/theme/icons/icon-facebook.svg" alt="jobhub" /></a>
+                    <a href="#"><img src="assets/imgs/theme/icons/icon-instagram.svg" alt="jobhub" /></a>
+                    <a href="#"><img src="assets/imgs/theme/icons/icon-youtube.svg" alt="jobhub" /></a>
+                </div>
+                <div class="site-copyright">2022 ©URNI <br /><strong>Designed By</strong> Unidad Relaciones
+                    Nacionales e Internacionales de
+                    la UPEA.</div>
+            </div>
+        </div>
     </div>
 </div>
